@@ -21,6 +21,7 @@ const StyledNavLink = styled(NavLink)`
     align-items: center;
     gap: 1.2rem;
     font-size: 1.6rem;
+    color: var(--color-grey-600);
     font-weight: 500;
     padding: 1.2rem 2.4rem;
     transition: all 0.3s;
