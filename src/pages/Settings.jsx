@@ -1,9 +1,14 @@
+import Row from "../ui/Row";
+import Heading from "../ui/Heading";
+import UpdateSettingsForm from "../features/settings/UpdateSettingsForm";
+
 function Settings() {
-    return (
-        <div>settings
-            
-        </div>
-    )
+  return (
+    <Row>
+      <Heading as="h1">Update settings</Heading>
+      <UpdateSettingsForm />
+    </Row>
+  );
 }
 
-export default Settings
+export default Settings;
